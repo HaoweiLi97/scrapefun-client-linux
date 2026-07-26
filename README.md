@@ -1,23 +1,48 @@
-# ScrapeFun Desktop Linux
+# ScrapeFun Client for Linux
 
-ScrapeFun native Linux desktop release repository.
+> 最后更新：2026 年 7 月 26 日
 
-This repository is used only to host downloadable Linux desktop release assets for ScrapeFun, including `.deb` and `.rpm` packages for supported architectures.
+ScrapeFun Client 是用于连接现有 ScrapeFun Server 的 Linux 桌面客户端。
 
-Source code and product changes live in the main repository:
+## 下载
 
-https://github.com/HaoweiLi97/ScrapeFun
+从 [Releases](https://github.com/HaoweiLi97/scrapefun-client-linux/releases/latest) 选择与你的发行版和处理器匹配的安装包：
 
-## Downloads
+- Debian / Ubuntu：`.deb`
+- Fedora / RHEL 兼容发行版：`.rpm`
+- 架构：`x64` 或 `arm64`，以文件名为准
 
-Use the GitHub Releases page for the latest Linux packages:
+每个版本会同时提供单文件 `.sha256` 和汇总的 `SHA256SUMS`。
 
-https://github.com/HaoweiLi97/scrapefun-desktop-linux/releases
+## 安装
 
-## Package Formats
+Debian / Ubuntu：
 
-- Debian/Ubuntu: `.deb`
-- Fedora/RHEL compatible distributions: `.rpm`
-- Architectures: `x64` and `arm64` when available
+```bash
+sudo apt install ./scrapefun-client-electron-linux-*.deb
+```
 
-Checksums are published alongside release assets as `.sha256` files and `SHA256SUMS`.
+Fedora / RHEL：
+
+```bash
+sudo dnf install ./scrapefun-client-electron-linux-*.rpm
+```
+
+## 连接服务器
+
+首次打开客户端后，填写 ScrapeFun Server 地址，例如：
+
+```text
+http://192.168.1.10:8096
+```
+
+服务器可以来自 Docker、macOS Server 或 Windows Server。
+
+## 更新
+
+有新版本时，从 Releases 下载并安装同架构的新包即可，客户端连接配置会保留。
+
+## 相关链接
+
+- [部署 ScrapeFun Server](https://github.com/HaoweiLi97/ScrapeFun)
+- [产品网站](https://mightly.store/)
