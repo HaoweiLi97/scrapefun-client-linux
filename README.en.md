@@ -4,7 +4,7 @@
 
 [Product overview](https://github.com/HaoweiLi97/ScrapeFun/blob/main/README.en.md) · [Stable downloads](https://github.com/HaoweiLi97/scrapefun-client-linux/releases/latest) · [All releases](https://github.com/HaoweiLi97/scrapefun-client-linux/releases) · [Online documentation](https://scrapefun.com/?lang=en#/docs)
 
-> Updated: 2026-09-28. Versions and assets below are the stable releases checked on this date. Follow the corresponding Release for later changes.
+> Updated: 2026-10-29. Versions and assets below are the stable releases checked on this date. Follow the corresponding Release for later changes.
 
 Linux desktop client for connecting to an existing ScrapeFun Server, browsing movie and TV libraries, playing resources, and reading comics. Server manages libraries, users, and progress.
 
@@ -12,7 +12,7 @@ Linux desktop client for connecting to an existing ScrapeFun Server, browsing mo
 
 | Item | Current stable release |
 | --- | --- |
-| Version | [0.0.4](https://github.com/HaoweiLi97/scrapefun-client-linux/releases/tag/v0.0.4) |
+| Version | [0.1.4](https://github.com/HaoweiLi97/scrapefun-client-linux/releases/tag/v0.1.4) |
 | Architecture | x64 / amd64 |
 | Packages | Debian / Ubuntu `.deb`, `.AppImage` |
 | Checksums | Individual `.sha256` files, `SHA256SUMS` |
@@ -24,14 +24,14 @@ Get the package from the [stable download page](https://github.com/HaoweiLi97/sc
 For Debian / Ubuntu, download the matching deb and run in the download directory:
 
 ```bash
-sudo apt install ./scrapefun-client-electron-linux-0.0.4-stable-x64.deb
+sudo apt install ./scrapefun-client-electron-linux-0.1.4-stable-x64.deb
 ```
 
 For AppImage, download the file and run:
 
 ```bash
-chmod +x ScrapeFun-Client-0.0.4.AppImage
-./ScrapeFun-Client-0.0.4.AppImage
+chmod +x scrapefun-client-electron-linux-0.1.4-stable-x64.AppImage
+./scrapefun-client-electron-linux-0.1.4-stable-x64.AppImage
 ```
 
 If your system reports missing runtime dependencies, follow your distribution's instructions. With `SHA256SUMS` and the corresponding packages downloaded, you can first run:
@@ -61,3 +61,7 @@ This repository provides platform installation instructions and official release
 See the new [commercial license statement](./LICENSE.en.txt) and full [software license agreement](./EULA.en.md). Ordinary personal, household, and internal organizational use is allowed. Pro requires a valid entitlement. Software redistribution, resale, customer delivery, and paid hosting require separate written authorization. The statement does not retroactively change existing licenses; existing assets follow their supplied licenses, and third-party components retain their own licenses.
 
 [Releases and compatibility](https://github.com/HaoweiLi97/ScrapeFun/blob/main/RELEASE_POLICY.en.md) · [Third-party components](https://github.com/HaoweiLi97/ScrapeFun/blob/main/THIRD_PARTY_NOTICES.en.md) · [Support](./SUPPORT.en.md)
+
+## Starting
+
+DEB and AppImage packages in 0.1.4 start through X11 / XWayland by default; adding `--ozone-platform=x11` manually is no longer necessary. Wayland desktops require XWayland.
