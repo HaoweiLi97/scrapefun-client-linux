@@ -4,7 +4,7 @@
 
 [产品主页](https://github.com/HaoweiLi97/ScrapeFun) · [稳定版下载](https://github.com/HaoweiLi97/scrapefun-client-linux/releases/latest) · [全部发行](https://github.com/HaoweiLi97/scrapefun-client-linux/releases) · [在线文档](https://scrapefun.com/#/docs)
 
-> 文档更新：2026-09-28。下列版本和资产为核对当日的稳定版；后续以对应 Release 为准。
+> 文档更新：2026-10-29。下列版本和资产为核对当日的稳定版；后续以对应 Release 为准。
 
 Linux 桌面客户端，连接已有 ScrapeFun Server，浏览影视媒体库、播放资源和阅读漫画。媒体库、用户及进度由 Server 管理。
 
@@ -12,7 +12,7 @@ Linux 桌面客户端，连接已有 ScrapeFun Server，浏览影视媒体库、
 
 | 项目 | 当前稳定版 |
 | --- | --- |
-| 版本 | [0.0.4](https://github.com/HaoweiLi97/scrapefun-client-linux/releases/tag/v0.0.4) |
+| 版本 | [0.1.4](https://github.com/HaoweiLi97/scrapefun-client-linux/releases/tag/v0.1.4) |
 | 架构 | x64 / amd64 |
 | 安装包 | Debian / Ubuntu `.deb`、`.AppImage` |
 | 校验文件 | 单文件 `.sha256`、`SHA256SUMS` |
@@ -24,14 +24,14 @@ Linux 桌面客户端，连接已有 ScrapeFun Server，浏览影视媒体库、
 Debian / Ubuntu 用户下载匹配的 deb 后，在下载目录执行：
 
 ```bash
-sudo apt install ./scrapefun-client-electron-linux-0.0.4-stable-x64.deb
+sudo apt install ./scrapefun-client-electron-linux-0.1.4-stable-x64.deb
 ```
 
 AppImage 用户下载后执行：
 
 ```bash
-chmod +x ScrapeFun-Client-0.0.4.AppImage
-./ScrapeFun-Client-0.0.4.AppImage
+chmod +x scrapefun-client-electron-linux-0.1.4-stable-x64.AppImage
+./scrapefun-client-electron-linux-0.1.4-stable-x64.AppImage
 ```
 
 如系统报告缺少运行依赖，请按发行版说明处理。下载了 `SHA256SUMS` 和相应包时，可先运行：
@@ -39,6 +39,10 @@ chmod +x ScrapeFun-Client-0.0.4.AppImage
 ```bash
 sha256sum --check --ignore-missing SHA256SUMS
 ```
+
+## 启动
+
+0.1.4 的 DEB 与 AppImage 默认通过 X11 / XWayland 启动，无需手动添加 `--ozone-platform=x11`。Wayland 桌面需提供 XWayland。
 
 ## 连接 Server
 
