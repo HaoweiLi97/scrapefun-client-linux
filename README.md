@@ -15,7 +15,7 @@ Linux 桌面客户端，连接已有 ScrapeFun Server，浏览影视媒体库、
 
 | 项目 | 当前稳定版 |
 | --- | --- |
-| 版本 | [0.5.0](https://github.com/HaoweiLi97/scrapefun-client-linux/releases/tag/v0.5.0) |
+| 版本 | [0.5.2](https://github.com/HaoweiLi97/scrapefun-client-linux/releases/tag/v0.5.2) |
 | 架构 | x64 / amd64 |
 | 安装包 | Debian / Ubuntu `.deb`、`.AppImage` |
 | 校验文件 | 单文件 `.sha256`、`SHA256SUMS` |
@@ -27,14 +27,14 @@ Linux 桌面客户端，连接已有 ScrapeFun Server，浏览影视媒体库、
 Debian / Ubuntu 用户下载匹配的 deb 后，在下载目录执行：
 
 ```bash
-sudo apt install ./scrapefun-client-electron-linux-0.5.0-stable-x64.deb
+sudo apt install ./scrapefun-client-electron-linux-0.5.2-stable-x64.deb
 ```
 
 AppImage 用户下载后执行：
 
 ```bash
-chmod +x scrapefun-client-electron-linux-0.5.0-stable-x64.AppImage
-./scrapefun-client-electron-linux-0.5.0-stable-x64.AppImage
+chmod +x scrapefun-client-electron-linux-0.5.2-stable-x64.AppImage
+./scrapefun-client-electron-linux-0.5.2-stable-x64.AppImage
 ```
 
 如系统报告缺少运行依赖，请按发行版说明处理。下载了 `SHA256SUMS` 和相应包时，可先运行：

@@ -15,7 +15,7 @@ Requires glibc 2.34+ and X11/XWayland. Pure Wayland and musl systems are unsuppo
 
 | Item | Current stable release |
 | --- | --- |
-| Version | [0.5.0](https://github.com/HaoweiLi97/scrapefun-client-linux/releases/tag/v0.5.0) |
+| Version | [0.5.2](https://github.com/HaoweiLi97/scrapefun-client-linux/releases/tag/v0.5.2) |
 | Architecture | x64 / amd64 |
 | Packages | Debian / Ubuntu `.deb`, `.AppImage` |
 | Checksums | Individual `.sha256` files, `SHA256SUMS` |
@@ -27,14 +27,14 @@ Get the package from the [stable download page](https://github.com/HaoweiLi97/sc
 For Debian / Ubuntu, download the matching deb and run in the download directory:
 
 ```bash
-sudo apt install ./scrapefun-client-electron-linux-0.5.0-stable-x64.deb
+sudo apt install ./scrapefun-client-electron-linux-0.5.2-stable-x64.deb
 ```
 
 For AppImage, download the file and run:
 
 ```bash
-chmod +x scrapefun-client-electron-linux-0.5.0-stable-x64.AppImage
-./scrapefun-client-electron-linux-0.5.0-stable-x64.AppImage
+chmod +x scrapefun-client-electron-linux-0.5.2-stable-x64.AppImage
+./scrapefun-client-electron-linux-0.5.2-stable-x64.AppImage
 ```
 
 If your system reports missing runtime dependencies, follow your distribution's instructions. With `SHA256SUMS` and the corresponding packages downloaded, you can first run:
