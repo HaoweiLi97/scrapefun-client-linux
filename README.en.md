@@ -1,10 +1,11 @@
-# ScrapeFun Client for Linux
+<div align="center">
+  <img src="./docs/images/client-icon.png" alt="ScrapeFun Client" width="80" />
+  <h1>ScrapeFun Client for Linux</h1>
+  <p><a href="./README.md">简体中文</a> · <strong>English</strong></p>
+  <p><a href="https://scrapefun.com/?lang=en">Website</a> · <a href="https://github.com/HaoweiLi97/scrapefun-client-linux/releases/latest">Download</a> · <a href="https://github.com/HaoweiLi97/scrapefun-client-linux/releases">All releases</a> · <a href="https://scrapefun.com/?lang=en#/docs">Documentation</a></p>
+</div>
 
-[简体中文](./README.md) · **English**
-
-[Product overview](https://github.com/HaoweiLi97/ScrapeFun/blob/main/README.en.md) · [Stable downloads](https://github.com/HaoweiLi97/scrapefun-client-linux/releases/latest) · [All releases](https://github.com/HaoweiLi97/scrapefun-client-linux/releases) · [Online documentation](https://scrapefun.com/?lang=en#/docs)
-
-> Updated: 2026-11-01. Versions and assets below are the stable releases checked on this date. Follow the corresponding Release for later changes.
+> Updated: 2026-11-03. Versions and assets below are the stable releases checked on this date. Follow the corresponding Release for later changes.
 
 Linux desktop client for connecting to an existing ScrapeFun Server, browsing movie and TV libraries, playing resources, and reading comics. Server manages libraries, users, and progress.
 
@@ -52,9 +53,12 @@ AppImage installations support updates through GitHub Releases, or you can repla
 
 Installing over the existing version under the same user normally retains local connection settings. Do not delete the client's user configuration directory unless you intend to reset those settings. Back up server libraries and business data on Server separately.
 
-## Troubleshooting
+<details>
+<summary>Troubleshooting</summary>
 
 For installation failures, include your distribution, CPU architecture, package filename, and package-manager output. For playback issues, also provide Server and Client versions, media codecs, and logs with sensitive information removed.
+
+</details>
 
 ## Support and licensing
 

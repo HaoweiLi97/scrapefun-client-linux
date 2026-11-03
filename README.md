@@ -1,10 +1,11 @@
-# ScrapeFun Client for Linux
+<div align="center">
+  <img src="./docs/images/client-icon.png" alt="ScrapeFun Client" width="80" />
+  <h1>ScrapeFun Client for Linux</h1>
+  <p><strong>简体中文</strong> · <a href="./README.en.md">English</a></p>
+  <p><a href="https://scrapefun.com/">官网</a> · <a href="https://github.com/HaoweiLi97/scrapefun-client-linux/releases/latest">下载安装</a> · <a href="https://github.com/HaoweiLi97/scrapefun-client-linux/releases">全部发行</a> · <a href="https://scrapefun.com/#/docs">使用文档</a></p>
+</div>
 
-**简体中文** · [English](./README.en.md)
-
-[产品主页](https://github.com/HaoweiLi97/ScrapeFun) · [稳定版下载](https://github.com/HaoweiLi97/scrapefun-client-linux/releases/latest) · [全部发行](https://github.com/HaoweiLi97/scrapefun-client-linux/releases) · [在线文档](https://scrapefun.com/#/docs)
-
-> 文档更新：2026-11-01。下列版本和资产为核对当日的稳定版；后续以对应 Release 为准。
+> 文档更新：2026-11-03。下列版本和资产为核对当日的稳定版；后续以对应 Release 为准。
 
 Linux 桌面客户端，连接已有 ScrapeFun Server，浏览影视媒体库、播放资源和阅读漫画。媒体库、用户及进度由 Server 管理。
 
@@ -56,9 +57,12 @@ AppImage 安装支持基于 GitHub Release 的更新，也可以手动替换 App
 
 同一用户下覆盖安装通常保留本地连接设置。不要主动删除客户端用户配置目录；删除它会重置连接配置。服务端媒体库和业务数据需在 Server 侧备份。
 
-## 故障排查
+<details>
+<summary>故障排查</summary>
 
 安装失败时记录发行版、CPU 架构、安装包名和包管理器输出。播放问题请同时提供 Server 与 Client 版本、媒体编码及脱敏日志。
+
+</details>
 
 ## 支持与授权
 
